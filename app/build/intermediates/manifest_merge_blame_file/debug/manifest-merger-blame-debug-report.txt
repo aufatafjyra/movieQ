@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.movieqtest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml
+10
+11    <queries>
+11-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:26:5-31:15
+12        <provider
+12-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:27:9-30:67
+13            android:name="com.android.car.ui.plugin.PluginNameProvider"
+13-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:28:13-72
+14            android:authorities="com.android.car.ui.plugin" />
+14-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:29:13-60
+15    </queries>
+16
+17    <application
+17-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:5:5-21:19
+18        android:allowBackup="true"
+18-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] /Users/aufatafjyra/.gradle/caches/transforms-3/b5f9b856b96829664226d4dbdc9c5a22/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:7:9-43
+22        android:label="@string/app_name"
+22-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:8:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:9:9-54
+24        android:supportsRtl="true"
+24-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:10:9-35
+25        android:theme="@style/Theme.MovieQTest" >
+25-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:11:9-48
+26        <activity
+26-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:12:9-20:20
+27            android:name="com.example.movieqtest.MainActivity"
+27-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:13:13-41
+28            android:exported="true" >
+28-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:14:13-36
+29            <intent-filter>
+29-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:15:13-19:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:16:17-69
+30-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:16:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:18:17-77
+32-->/Users/aufatafjyra/StudioProjects/MovieQTest/app/src/main/AndroidManifest.xml:18:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <provider
+36-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:34:9-39:71
+37            android:name="com.android.car.ui.core.CarUiInstaller"
+37-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:35:13-66
+38            android:authorities="com.example.movieqtest.CarUiInstaller"
+38-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:36:13-66
+39            android:directBootAware="true"
+39-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:37:13-43
+40            android:exported="false"
+40-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:38:13-37
+41            android:process="@string/car_ui_installer_process_name" />
+41-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:39:13-68
+42        <provider
+42-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:40:9-45:79
+43            android:name="com.android.car.ui.core.SearchResultsProvider"
+43-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:41:13-73
+44            android:authorities="com.example.movieqtest.SearchResultsProvider"
+44-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:42:13-73
+45            android:exported="true"
+45-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:43:13-36
+46            android:process="@string/car_ui_installer_process_name"
+46-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:44:13-68
+47            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
+47-->[com.android.car.ui:car-ui-lib:2.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/9e531406fea3365720538427fbaa0d2c/transformed/jetified-car-ui-lib-2.0.0/AndroidManifest.xml:45:13-76
+48        <provider
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+50            android:authorities="com.example.movieqtest.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/aufatafjyra/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/aufatafjyra/.gradle/caches/transforms-3/c8f90db82e157d7f3c5debcb17b576c8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/aufatafjyra/.gradle/caches/transforms-3/c8f90db82e157d7f3c5debcb17b576c8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/aufatafjyra/.gradle/caches/transforms-3/c8f90db82e157d7f3c5debcb17b576c8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>
